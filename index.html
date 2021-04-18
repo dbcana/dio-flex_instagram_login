@@ -1,0 +1,47 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="flexbox.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="flexbox.js" defer></script>
+        <title>Projeto Digital Innovation One - Recriando a página inicial do Instagram - dbcana</title>
+    </head>
+    <body>
+        <section id="vue_obj" class="instagram-wrapper">
+            <section class="instagram-phone">
+                <img src="./img/instagram-celular.png" alt="celular">
+            </section>
+            <section class="instagram-continue">
+                <section class="instagram-languages">
+                    <img class="flags" alt="English" src="./img/en.png" @click="setLang('en')">
+                    <img class="flags" alt="Spanish" src="./img/es.png" @click="setLang('es')">
+                    <img class="flags" alt="Portuguese" src="./img/pt.png" @click="setLang('pt')">
+                </section>
+                <section class="group">
+                    <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
+                    <div class="profile-photo">
+                        <img src="./img/perfil-instagram.jpg" alt="foto de perfil">
+                    </div>
+                    <a href="#" class="instagram-login">{{ fields.continueas }}</a>
+                    <a href="#" class="instagram-logout">{{fields.removeacc}}</a>
+                </section>
+                <section class="group">
+                    <p class="not-account">{{fields.isnot}}</p>
+                    <p class="not-account">
+                        <span class="link-blue">{{fields.changeacc}}</span>
+                        ou
+                        <span class="link-blue">{{fields.joinus}}</span>
+                    </p>
+                </section>
+                <section class="get-the-app">
+                    <p class="get-app">{{fields.getapp}}</p>
+                    <div class="download">
+                        <a href="#" class="app-download"></a>
+                        <a href="#" class="app-download"></a>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </body>
+</html>
