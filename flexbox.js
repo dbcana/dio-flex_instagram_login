@@ -8,20 +8,20 @@ var langOptions = {
 		getapp: 'Get the app'
 	},
 	'es': {
-		continueas: 'Continue como cana.db',
-		removeacc: 'Remueva la cuenta',
-		isnot: 'No eres cana.db?',
-		changeacc: 'Cambie la cuenta',
-		joinus: 'Juntese a nosotros',
-		getapp: 'Tenga el app'
+		continueas: 'Continuar como cana.db',
+		removeacc: 'Eliminar cuenta',
+		isnot: '¿No es cana.db?',
+		changeacc: 'Cambiar cuenta',
+		joinus: 'Únete a nosotros',
+		getapp: 'Obtener la aplicación'
 	},
 	'pt': {
 		continueas: 'Continue como cana.db',
 		removeacc: 'Remover conta',
 		isnot: 'Não é cana.db?',
-		changeacc: 'Trocar de conta',
+		changeacc: 'Mudar de conta',
 		joinus: 'Junte-se a nós',
-		getapp: 'Obtenha o aplicativo'
+		getapp: 'Baixe o aplicativo'
 	}	
 }
 var vue_obj = new Vue({
